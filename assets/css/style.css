@@ -1,0 +1,727 @@
+body{
+    width: 1920px;
+height: 4344px;
+top: -2065px;
+left: -1015px;
+background: #FFFFFF;
+}
+
+
+/* Navbar Styling */
+.navbar {
+    width: 1920px;
+    height: 100px;
+    background-color: #ffffff; /* Change as per your design */
+   
+}
+
+/* Ensuring it remains centered */
+.container {
+    max-width: 1920px;
+}
+
+/* Logo Container */
+.LogoNeoit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 22px;
+    left: 160px;
+    width: 125px;
+    height: 56px;
+}
+
+/* Neo-IT Styling */
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 0%;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* IT Styling */
+.logo-it {
+    font-weight: 500;
+    background: #A93226;
+    color: #fff;
+    padding: 0px 1px; /* Adds space around IT */
+    width: 46;
+height: 56;
+top: 22px;
+left: 239px;
+}
+
+/* Navigation Menu Styling */
+.nav-menu {
+    position: absolute;
+    width: 987px;
+    height: 15px;
+    top: 43px;
+    left: 583px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    Vertical trim: Cap height;
+    text-align: right;
+    text-transform: uppercase;
+    color: #000; /* Change color based on Figma */
+    padding: 5px 15px; /* Adjust spacing */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #A93226; /* Hover color */
+}
+
+/* Adjust spacing between menu items */
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+/* Navbar Icons Container */
+.navbar-icons {
+    display: flex;
+    gap: 25px; /* Adjust spacing between icons */
+    position: absolute;
+    top: 40px; /* Set top position */
+    left: 1650px; /* Set left position */
+    width: 109.82px; /* Total width */
+    height: 20px; /* Total height */
+}
+
+/* Individual Icons */
+.nav-icon {
+    width: 109.822509765625px;
+height: 20px;
+top: 40px;
+left: 1650px;
+color: #A93226;
+}
+
+/* Search Icon */
+.search-icon {
+    width: 19.999839782714844px;
+    height: 20px;
+    top: 40px;
+    left: 1650px;    
+}
+
+/* User Icon */
+.user-icon {
+    width: 19.822742462158203px;
+    height: 20px;
+    top: 40px;
+    left: 1695px;    
+}
+
+/* Cart Icon */
+.cart-icon {
+    width: 19.999998092651367px;
+height: 20px;
+top: 40px;
+left: 1739.82px;
+}
+
+/* Hover Effect */
+.nav-icon:hover {
+    color: #000; /* Change color on hover */
+}
+
+/* Hero Section */
+.hero {
+    width: 1920px;
+    height: 665px;
+    top: 100px;    
+}
+
+/* Background Image */
+.bannerimage {
+    width: 1920;
+    height: 665;
+    top: 100px;    
+}
+/* Centering Caption */
+.carousel-caption {
+    position: absolute;
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Ensures true centering */
+    width: 80%; /* Responsive width */
+    max-width: 1342px; 
+    text-align: center; /* Centers text */
+}
+
+/* Adjust Heading */
+.carousel-caption h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Shop Button */
+.btn.shop-btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #A93226;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+/* Button Text */
+.shop-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* Adjust Carousel Controls */
+.carousel-arrow {
+    position: absolute;
+    width: 100%; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; 
+    opacity: 1; 
+}
+
+/* Make arrows bigger and bolder */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 20px;
+    height: 30.97429084777832px;
+    top: 417px;
+    left: 1760px; 
+    font-weight: 900; 
+    color: #A7A7A7;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hover effect for better interaction */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    /* background-color: #A93226; */
+    transition: 0.3s ease-in-out;
+}
+
+.parts {
+    width: 1920px;
+height: 673px;
+top: 765px;
+background: #A93226;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.categories {
+    width: 1600px;
+    height: 513px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for Image and Overlay */
+.p1, .p2, .p3 {
+    width: 513px;
+    height: 513px;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Image Styling */
+.image1, .image2, .image3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #E7E7E7;
+}
+
+/* Gradient Overlay */
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 128px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text Styling */
+.cat1, .cat2, .cat3 {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.category1, .category2, .category3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.items {
+    width: 1600px;
+    height: 637px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 675px;
+    border-width: 1px;
+    position: relative;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 20px;
+}
+
+.left-line, .right-line {
+    width: 120px;
+    border: 1px solid #A93226;
+}
+
+.products {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.pro1, .pro2, .pro3, .pro4 {
+    width: 332px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-item1, .img-item2, .img-item3, .img-item4 {
+    width: 332px;
+    height: 374px;
+    border: 1px solid #CFCFCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro1img, .pro2img, .pro3img, .pro4img {
+    width: 244px;
+    height: 244px;
+    object-fit: cover;
+}
+
+.proname1, .proname2, .proname3, .proname4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rate1, .rate2, .rate3, .rate4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
+
+.carousel-arrow-items {
+    width: 1600px;
+    height: 31px;
+    position: absolute;
+    top: 1797px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #A7A7A7;
+}
+
+/* Arrow */
+.carousel-control-prev-item, .carousel-control-next-item {
+    width: 20px;
+    height: 31px;
+    left: 160px;
+}
+
+.view-btn {
+    width: 180px;
+    height: 50px;
+    margin: 40px auto 0;
+    border-radius: 50px;
+    background: #A93226;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewbtn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+    height: 100%;
+}
+
+.br-line {
+    width: 100%;
+    max-width: 1600px;
+    height: 1px;
+    background-color: #CFCFCF;
+    margin: 20px auto;
+}
+
+
+/* Offer Section */
+.offer-section {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Wrapper to position the image and content */
+.offer-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Offer Image */
+.offerimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%); /* Dark overlay effect */
+}
+
+/* Offer Caption (Text and Button) */
+.offer-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 1195px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+
+/* Discount Main Text */
+.discount {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Highlighted Discount */
+.offer {
+    font-size: 80px;
+    font-weight: 700;
+    color: #A93226;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Discount Validity Date */
+.discount-date {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+/* Section Styling */
+.search-section {
+    width: 100%;
+    max-width: 1920px;
+    height: 232px;
+    background: #A93226;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Title Container */
+.search-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* Title Styling */
+.headingNews {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between text and lines */
+    width: 100%;
+}
+
+/* Left & Right Lines */
+.line {
+    display: inline-block;
+    width: 120px;
+    height: 2px;
+    background: #FFFFFF;
+    vertical-align: middle;
+}
+
+.left-line {
+    margin-right: 10px;
+}
+
+.right-line {
+    margin-left: 10px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 0 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Field */
+.box {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #7B7B7B;
+    padding-left: 20px;
+    border-radius: 50px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer Container */
+.footer {
+    width: 100%;
+    max-width: 1920px;
+    height: 400px;
+    background: #000000;
+    color: #FFFFFF;
+    /* padding: 50px 160px; */
+    display: flex;
+    flex-direction: column;
+    top: 3944px;
+}
+
+/* Footer Content Container */
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* padding: 50px 150px; */
+}
+
+/* Heading Styling */
+.footer-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    margin-bottom: 15px;
+}
+
+/* Links Styling */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #CFCFCF;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    font-size: 22px;
+    color: #A93226;
+}
+
+/* Payment Icons */
+.payment-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-icons img {
+    width: 448.75px;
+height: 35px;
+top: 4041px;
+left: 1311px;
+}
+
+/* Horizontal Line */
+.horizontal {
+    width: 100%;
+    max-width: 1920px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3); /* Opacity applied through rgba */
+    margin: 20px auto 0;
+    border: none;
+}
+
+/* Footer Bottom Container */
+.footer-bottom {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 160px; /* Adjusted padding */
+}
+
+/* Footer Bottom Text */
+.footer-bottom p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+
+
+
+
+
+

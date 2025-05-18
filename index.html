@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neo-IT</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+   <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg"> 
+    <div class="container-fluid"> <!-- Changed 'container' to 'container-fluid' -->
+        <div class="LogoNeoit">
+        <a class="navbar-brand logo" href="#">
+            Neo<span class="logo-it">IT</span>
+        </a>       
+    </div> 
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse nav-menu" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Component</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Peripherals</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Monitors</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Offers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <!-- Icons Section -->
+        <div class="navbar-icons">
+            <a href="#" class="nav-icon"><i class="bi bi-search"></i></a>
+            <a href="#" class="nav-icon"><i class="bi bi-person"></i></a>
+            <a href="#" class="nav-icon"><i class="bi bi-cart"></i></a>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/images/banner" class="bannerimage" alt="Laptop Banner">
+                    <div class="carousel-caption">
+                        <h1>NEO-IT IS DESIGNED FOR YOUR <br> COMPUTER UPGRADES AND NEW BUILDS</h1>
+                        <a href="#" class="btn shop-btn">SHOP NOW</a>
+                    </div>                    
+                </div>
+            </div>
+            <!-- Left & Right Navigation Arrows -->
+             <div class="carousel-arrow">
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+        </div>
+    </section>
+
+    <!-- Computer parts -->
+    <section class="container parts">
+        <div class="row categories">
+            <div class="col-md-3 p1 component-box">
+                <img src="/assets/images/component.jpg" class="image1" alt="component">
+                <div class="gradient-overlay"></div>
+                <p class="cat1"><span class="category1">Component</span></p>
+            </div>     
+            <div class="col-md-3 p2"><img src="/assets/images/peripherals.jpg" class="image2" alt="component">
+                <div class="gradient-overlay"></div>
+                <p class="cat1"><span class="category2">Peripherals</span></p>
+            </div>
+            <div class="col-md-3 p3"><img src="/assets/images/monitor.jpg" class="image3" alt="component">
+                <div class="gradient-overlay"></div>
+                <p class="cat1"><span class="category3">Monitors</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Most Popular Items -->
+    <section class="container items">
+        <div class="title">
+            <span class="left-line"></span>
+        <h1 class="heading">Most Popular Items</h1>
+        <span class="right-line"></span>
+       </div>
+        <div class="row products">
+            <div class="col-md-3 pro1"><div class="img-item1"><img src="/assets/images/product1.png" class="pro1img" alt="component">
+            </div><p class="proname1">Product name goes here - 01<span class="rate1">£0.00</span></p></div>
+            <div class="col-md-3 pro2"><div class="img-item2"><img src="/assets/images/product2.png" class="pro2img" alt="component">
+            </div><p class="proname1">Product name goes here - 02<span class="rate2">£0.00</span></p></div>
+            <div class="col-md-3 pro3"><div class="img-item3"><img src="/assets/images/product3.png" class="pro3img" alt="component">
+            </div><p class="proname1">Product name goes here - 03<span class="rate3">£0.00</span></p></div>
+            <div class="col-md-3 pro4"><div class="img-item4"><img src="/assets/images/product4.png" class="pro4img" alt="component">
+            </div><p class="proname1">Product name goes here - 04<span class="rate4">£0.00</span></p></div>
+        </div>
+         <!-- Left & Right Navigation Arrows -->
+         <div class="carousel-arrow-items">
+            <button class="carousel-control-prev-item" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next-item" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <div class="view-btn">
+            <a href="#" class="viewbtn">VIEW ALL</a></div>
+    </section>
+
+    <div class="br-line"></div>
+
+    <!-- Featured Products -->
+    <section class="container items">
+        <div class="title">
+            <span class="left-line"></span>
+        <h1 class="heading">Featured Products</h1>
+        <span class="right-line"></span>
+       </div>
+        <div class="row products">
+            <div class="col-md-3 pro1"><div class="img-item1"><img src="/assets/images/FProduct1.png" class="pro1img" alt="component">
+            </div><p class="proname1">Product name goes here - 01<span class="rate1">£0.00</span></p></div>
+            <div class="col-md-3 pro2"><div class="img-item2"><img src="/assets/images/FProduct2.png" class="pro2img" alt="component">
+            </div><p class="proname1">Product name goes here - 02<span class="rate2">£0.00</span></p></div>
+            <div class="col-md-3 pro3"><div class="img-item3"><img src="/assets/images/FProduct3.png" class="pro3img" alt="component">
+            </div><p class="proname1">Product name goes here - 03<span class="rate3">£0.00</span></p></div>
+            <div class="col-md-3 pro4"><div class="img-item4"><img src="/assets/images/FProduct4.png" class="pro4img" alt="component">
+            </div><p class="proname1">Product name goes here - 04<span class="rate4">£0.00</span></p></div>
+        </div>
+         <!-- Left & Right Navigation Arrows -->
+         <div class="carousel-arrow-items">
+            <button class="carousel-control-prev-item" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next-item" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <div class="view-btn">
+            <a href="#" class="viewbtn">VIEW ALL</a></div>
+    </section>
+
+    <!-- Discount Offer -->
+    <section class="offer-section">
+        <div class="offer-wrapper">
+            <img src="/assets/images/offer.png" class="offerimage" alt="Offer Banner">
+            <div class="offer-caption">
+                <h1 class="discount">
+                    Get up to <span class="offer">20%</span>
+                    <br>discount on all products
+                    <br><span class="discount-date">Offer valid till 31st MARCH, 2025</span>
+                </h1>
+                <a href="#" class="btn shop-btn">SHOP NOW</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter Signup -->
+    <section class="search-section">
+        <div class="search-title">
+            <h3 class="headingNews">
+                <span class="line left-line"></span>
+                Newsletter Sign Up
+                <span class="line right-line"></span>
+            </h3>
+        </div>
+        <div class="search-box">
+            <input type="email" class="box" placeholder="Enter your email address">
+            <button class="submit-btn">
+                <i class="bi bi-send-fill"></i> <!-- Bootstrap Icon -->
+            </button>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Component</a></li>
+                    <li><a href="#">Peripherals</a></li>
+                    <li><a href="#">Monitors</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <!-- Information -->
+            <div class="footer-section">
+                <h3 class="footer-heading">Information</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Returns Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+    
+            <!-- Connect With Us -->
+            <div class="footer-section">
+                <h3 class="footer-heading">Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+    
+            <!-- Payment Methods -->
+            <div class="footer-section">
+                <h3 class="footer-heading">Payment Method</h3>
+                <div class="payment-icons">
+                    <img src="/assets/images/cards.png" alt="cards">
+                </div>
+            </div>
+        </div>
+
+        <hr class="horizontal">
+    
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <p>© 2025 All Rights Reserved. | Neo-IT Ltd</p>
+        </div>
+    </footer>
+    
+
+    
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
